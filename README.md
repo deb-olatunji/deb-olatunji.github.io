@@ -1,2 +1,1 @@
-# site-repo
-Site repo for author site and book.
+# deb-olatunji.github.io
