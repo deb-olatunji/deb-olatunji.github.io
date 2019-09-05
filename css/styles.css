@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: wheat;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.nav-container {
+    display: flex;
+    max-height: 300px;
+    margin: 0;
+    justify-content: space-between;
+    padding: 0;
+    background-color: skyblue;
+}
+
+.name-header {
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: 20px;
+}
+
+.site-nav-items {
+    display: flex;
+    background-color: sk;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.site-nav-items ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.site-nav-items li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.name-text {
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+}
+
+.site-tag {
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.site-tag:hover {
+    background-color: white;
+    -webkit-text-fill-color: black;
+}
